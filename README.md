@@ -1,2 +1,2 @@
-# Random_samples_from_bootstrapping
-Create random samples from a boostrapping approach. Useful to calculate error bars when Poissonian uncertainties should not be applied.
+# Random_samples_bootstrapping_clustering
+Creation of random samples from a bootstrapping approach. Clustering calculation of a data sample. Error bar comparison (Poissonian vs bootstrapping).
