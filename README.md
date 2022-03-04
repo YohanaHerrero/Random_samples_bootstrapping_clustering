@@ -2,7 +2,7 @@
 
 ## **What is this repository for?**
 
-In this script, I create 100 random samples following the bootstrapping approach described in Durcalek et al. 2015.
+In this script, I create 100 random samples following the bootstrapping approach described in Durcalek et al. 2015. This is very useful when further data samples are needed to perform specific tests or when poissonian error bars may understimate the uncertainties of the data. We also calculate the clustering in a data sample with the K-estimator of Adelberger et al. 2005, and compare the bootstrapping and poissonian error bars.
 
 ## **Installing Random_samples_bootstrapping_clustering**
 
@@ -19,6 +19,7 @@ The code is written in Python and uses a range of default packages included in s
 - numpy  
 - matplotlib
 - math
+- glob
 - itertools
 - sklearn
 
