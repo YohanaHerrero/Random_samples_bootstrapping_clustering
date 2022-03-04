@@ -1,2 +1,42 @@
 # Random_samples_bootstrapping_clustering
-Creation of random samples from a bootstrapping approach. Clustering calculation of a data sample. Error bar comparison (Poissonian vs bootstrapping).
+
+## **What is this repository for?**
+
+In this script, I create 100 random samples following the bootstrapping approach described in Durcalek et al. 2015, I calculate the clustering of a data sample with the K-estimator of Adelberger et al. 2005 and compare poissonian to bootstrapping error bars.
+
+## **Installing Random_samples_bootstrapping_clustering**
+
+No installation is needed. Simply cloning the GitHub repository and importing the script is enough. Hence, 
+
+```
+    git clone https://github.com/YohanaHerrero/Random_samples_bootstrapping_clustering.git
+```
+
+The code is written in Python and uses a range of default packages included in standard installations of Python:
+
+### **Standard packages:**
+
+- numpy  
+- matplotlib
+- math
+- glob
+- itertools
+- sklearn
+
+### **Special packages:**
+
+- astropy 
+
+After adding the Random_samples_bootstrapping_clustering directory to the PYTHONPATH or changing location to the Random_samples_bootstrapping_clustering directory, the repository can be imported in python with:
+
+```
+    import Random_samples_bootstrapping_clustering
+```
+
+Besides the python packages, you will also need a fits table containing the following columns:
+
+- RA in degrees
+- DEC in degrees
+- Z 
+
+Instead, the three parameters above can be replaced by various kind of data, according to specific needs.
